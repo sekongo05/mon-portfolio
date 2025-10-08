@@ -44,7 +44,7 @@ let Home = ()=>{
                 </div>
 
                 <div id='open2' className=' mt-[50px] h-[50%]  w-full flex items-center justify-center sm:hidden'>
-                    <p className="dark:bg-[url('/images/ggi.png')] w-[100%] bg-[url('/images/de.png')] bg-[length:500px_500px] bg-no-repeat     bg-center h-[100%] ">
+                    <p className="dark:bg-[url('/images/ggi.png')] w-[100%] bg-[url('/images/de.png')] bg-[length:500px_470px] bg-no-repeat     bg-center h-[100%] ">
                        
                     </p>
                 </div>
