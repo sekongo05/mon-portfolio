@@ -4,6 +4,9 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+
+
+
 #mn{
     animation: 1s ease-in-out anim1 ;
 }

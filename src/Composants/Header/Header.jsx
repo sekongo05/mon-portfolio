@@ -11,7 +11,7 @@ let Header = ()=>{
     return <>
              <div className=' fixed  top-0 right-0 left-0 h-[100px] w-full  z-50 flex justify-between items-center dark:bg-black bg-white   dark:text-white text-black'  >
                 <div className=' flex  w-1/2  justify-center items-center  sm:w-[20%] h-[100%]'>
-                    <p className='text-[25px] font-extrabold'>  <span className='text-sky-400'>SEKONGO_</span>DEV </p>
+                    <p className='text-[25px] pl-[25px] font-extrabold'>  <span className='text-sky-400'>SEKONGO_</span>DEV </p>
                 </div>
                 <div className=' hidden sm:flex sm:justify-center sm:items-center font-bold   sm:w-[70%] sm:h-[100%]'>
 
@@ -42,7 +42,7 @@ let Header = ()=>{
            {menu && (
 
 
-            <div id='mn' className='flex fixed w-[100%]  z-40 mt-[100px] h-[250px]  bg-sky-400  items-center sm:hidden'>
+            <div id='mn' className='flex fixed w-[100%]  z-40 mt-[100px] h-[250px]  bg-sky-700  items-center sm:hidden'>
                 <ul className='flex flex-col justify-center gap-2 w-[90%] h-full  items-center pl-[50px] text-[20px] font-bold text-white dark:text-white  '>
                         <li onClick={()=> setMenu(false)}><a href="#home">Home</a></li>
                         <li onClick={()=> setMenu(false)} ><a href="#propos">A propos</a></li>
@@ -51,7 +51,7 @@ let Header = ()=>{
                         <li onClick={()=> setMenu(false)}><a href="#projet">Projets</a></li>
                         <li onClick={()=> setMenu(false)} ><a href="https://api.whatsapp.com/send?phone=2250153761320&text=Bonjour%20Mr%20SEKONGO%2C%20je%20veux%20en%20savoir%20plus%20sur%20vos%20services%2E" target="_blank">Contactez-Moi</a></li>
                     </ul>
-                    <div className=' flex flex-col justify-start items-start h-[90%]  w-[10%]'>
+                    <div className=' flex flex-col justify-start items-start h-[90%] ml-[-10px] w-[10%]'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" onClick={()=> setMenu(false)} className="size-10 text-white dark:text-white cursor-pointer">
                             <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.72 6.97a.75.75 0 1 0-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 13.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 12l1.72-1.72a.75.75 0 1 0-1.06-1.06L12 10.94l-1.72-1.72Z" clipRule="evenodd" />
                         </svg>
