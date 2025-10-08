@@ -89,47 +89,47 @@ let Competence = ()=>{
                         <div className=' mb-[20px]  w-[100%] p-7 h-min flex justify-center gap-12 items-center '>
                             <p className='w-[45%]  h-[200px] flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/h.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'> Html</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'> Html</p>  
                             </p>
                             <p className='w-[45%]  h-[200px]  flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/c.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'>CSS</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'>CSS</p>  
                             </p>
                         </div>
                         <div className=' mb-[20px]  w-[100%] p-7 h-min flex justify-center gap-12 items-center '>
                             <p className='w-[45%]  h-[200px]  flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/j.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'> JavaScript</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'> JavaScript</p>  
                             </p>
                             <p className='w-[45%]  h-[200px] flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/r.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'>React Js</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'>React Js</p>  
                             </p>
                         </div>
                         <div className=' mb-[20px]  w-[100%] p-7 h-min flex justify-center gap-12 items-center '>
                             <p className='w-[45%]  h-[200px]  flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/p.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'> Php</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'> Php</p>  
                             </p>
                             <p className='w-[45%] h-[200px]  flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/n.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'>Node Js</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'>Node Js</p>  
                             </p>
                         </div>
                         <div className=' mb-[20px] p-7 w-[100%] h-min flex justify-center gap-12 items-center '>
                             <p className='w-[45%] h-[200px]   flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/eb.png')] dark:bg-[url('/logo/ew.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'>Express Js</p> 
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'>Express Js</p> 
                             </p>
                             <p className='w-[45%] h-[200px]   flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/t.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'> Tailwindcss</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'> Tailwindcss</p>  
                             </p>
                         </div>
                         <div className=' mb-[20px] p-7 w-[100%] h-min flex justify-center gap-12 items-center '>
                             <p className='w-[45%] h-[200px]   flex flex-col logo '>
                                 <p className=" h-[200px] bg-[url('/logo/g.png')] dark:bg-[url('/logo/ew.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'>Git</p> 
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'>Git</p> 
                             </p>
                         </div>
                         <div  className='h-[100px] text-[25px]  font-semibold capitalize bg-white flex justify-center items-center text-black dark:text-white  dark:bg-black'>
@@ -138,21 +138,21 @@ let Competence = ()=>{
                          <div className=' mb-[20px] p-7 w-[100%] h-min flex justify-center gap-12 items-center '>
                             <p className='w-[200px] h-[250px]  flex flex-col logo'>
                                 <p className=" h-[200px] bg-[url('/logo/i.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'> Illustrator</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'> Illustrator</p>  
                             </p>
                             <p className='w-[200px] h-[250px]  flex flex-col logo'>
                                 <p className=" h-[200px] bg-[url('/logo/ph.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'> Photoshop</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'> Photoshop</p>  
                             </p>
                         </div>
                          <div className=' mb-[20px] p-7 w-[100%] h-min flex justify-center gap-12 items-center '>
                             <p className='w-[200px] h-[250px]  flex flex-col logo'>
                                 <p className=" h-[200px] bg-[url('/logo/ca.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'> Canva</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'> Canva</p>  
                             </p>
                             <p className='w-[200px] h-[250px]  flex flex-col logo'>
                                 <p className=" h-[200px] bg-[url('/logo/f.png')] bg-center bg-no-repeat bg-[length:150px_150px]"></p>
-                                <p className=' h-[50px] flex justify-center font-mono items-center text-[25px]'> Figma</p>  
+                                <p className=' h-[50px] flex justify-center font-mono items-center text-[20px]'> Figma</p>  
                             </p>
                         </div>
 

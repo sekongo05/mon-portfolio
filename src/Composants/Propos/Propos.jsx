@@ -7,7 +7,7 @@ let Propos = ()=>{
     return <>
                 <div id='propos' className='h-[100px] bg-white dark:bg-black'></div>
                 <div className='h-[100px]  w-[100%] text-black dark:text-white flex justify-center items-center sm:mb-[-100px] bg-white dark:bg-black'>
-                    <p className='text-[35px] font-extrabold capitalize text-sky-400'>à Propos</p>
+                    <p className='text-[35px] font-extrabold capitalize text-sky-400'>à Propos de moi</p>
                 </div>
             <div  className=' h-[100vh] w-[100%]  font-mono flex flex-col  sm:flex-row bg-white dark:bg-black text-black dark:text-white'>
                 <div className=' w-full h-[50%] flex justify-center items-center sm:h-[100%]'> 
@@ -18,8 +18,8 @@ let Propos = ()=>{
 
                 </div>
                 <div id='open2'  className='w-full h-[50%] flex justify-center items-center sm:h-[100%]'>
-                    <p  id='sh' className=' rounded-full w-[350px] h-[350px] sm:w-[500px] sm:h-[500px] overflow-hidden'>
-                        <img src="images/ddd.jpg" alt="" className='' />
+                    <p  id='sh' className=' rounded-full w-[350px] h-[350px] sm:w-[500px] bg-white dark:bg-black sm:h-[500px] overflow-hidden'>
+                        <img src="images/im.jpg" alt="" className='' />
                     </p>
                 </div>
             </div>
