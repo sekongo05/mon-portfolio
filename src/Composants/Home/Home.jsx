@@ -5,7 +5,9 @@ let Home = ()=>{
 
 
     return <>
-            <div id='home' className='h-[100px] bg-white dark:bg-black'></div>
+            <div id='home' className='h-[100px] bg-white dark:bg-black'>
+                
+            </div>
             <div  className="h-[100vh] z-10  overflow-hidden flex justify-center items-center flex-col  text-black dark:text-white
               sm:h-[calc(100vh-100px)] sm:flex-row sm:bg-no-repeat sm:bg-center  bg-white dark:bg-black ">
                 <div id='open' className=' flex flex-col justify-center h-[70%] normal-case" text-[33px] items-center w-full sm:h-[90%] font-extrabold sm:text-[60px]'>
@@ -41,8 +43,8 @@ let Home = ()=>{
                 <div id='open2' className=" hidden sm:overflow-hidden sm:flex sm:bg-[url('/images/de.png')]  sm:dark:bg-[url('/images/ggi.png')] bg-center bg-cover   w-[90%] h-min overflow-hidden  justify-center items-center sm:h-[100%]">    
                 </div>
 
-                <div id='open2' className=' mt-[50px] h-[50%]  w-full flex items-center justify-center    sm:hidden'>
-                    <p className="dark:bg-[url('/images/ggi.png')] w-[100%] bg-[url('/images/de.png')]  bg-cover bg-center h-[100%] ">
+                <div id='open2' className=' mt-[50px] h-[50%]  w-full flex items-center justify-center sm:hidden'>
+                    <p className="dark:bg-[url('/images/ggi.png')] w-[100%] bg-[url('/images/de.png')] bg-[length:500px_500px] bg-no-repeat     bg-center h-[100%] ">
                        
                     </p>
                 </div>
