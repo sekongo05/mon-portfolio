@@ -19,6 +19,7 @@ let Header = ()=>{
                         <li className=''><a href="#home">Home</a></li>
                         <li><a href="#propos">A propos</a></li>
                         <li><a href="#compet">Compétences</a></li>
+                        <li><a href="#certif">Certifications</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#projet">Projets</a></li>
                         <li id='cont' className='' ><a href="https://api.whatsapp.com/send?phone=2250153761320&text=Bonjour%20Mr%20SEKONGO%2C%20je%20veux%20en%20savoir%20plus%20sur%20vos%20services%2E" target="_blank">Contactez-Moi</a></li>
@@ -42,11 +43,12 @@ let Header = ()=>{
            {menu && (
 
 
-            <div id='mn' className='flex fixed w-[100%]  z-40 mt-[100px] h-[250px]  bg-sky-700  items-center sm:hidden'>
+            <div id='mn' className='flex fixed w-[100%]  z-40 mt-[100px] h-[300px]  bg-sky-700  items-center sm:hidden'>
                 <ul className='flex flex-col justify-center gap-2 w-[90%] h-full  items-center pl-[50px] text-[20px] font-bold text-white dark:text-white  '>
                         <li onClick={()=> setMenu(false)}><a href="#home">Home</a></li>
                         <li onClick={()=> setMenu(false)} ><a href="#propos">A propos</a></li>
                         <li onClick={()=> setMenu(false)}><a href="#compet">Compétences</a></li>
+                        <li onClick={()=> setMenu(false)}><a href="#certif">Certifications</a></li>
                         <li onClick={()=> setMenu(false)}><a href="#services">Services</a></li>
                         <li onClick={()=> setMenu(false)}><a href="#projet">Projets</a></li>
                         <li onClick={()=> setMenu(false)} ><a href="https://api.whatsapp.com/send?phone=2250153761320&text=Bonjour%20Mr%20SEKONGO%2C%20je%20veux%20en%20savoir%20plus%20sur%20vos%20services%2E" target="_blank">Contactez-Moi</a></li>
