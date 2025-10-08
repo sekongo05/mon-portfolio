@@ -8,20 +8,25 @@ let Home = ()=>{
             <div id='home' className='h-[100px] bg-white dark:bg-black'></div>
             <div  className="h-[100vh] z-10  overflow-hidden flex justify-center items-center flex-col  text-black dark:text-white
               sm:h-[calc(100vh-100px)] sm:flex-row sm:bg-no-repeat sm:bg-center  bg-white dark:bg-black ">
-                <div id='open' className=' flex flex-col justify-center h-[70%] normal-case" text-[40px] items-center w-full sm:h-[90%] font-extrabold sm:text-[60px]'>
+                <div id='open' className=' flex flex-col justify-center h-[70%] normal-case" text-[33px] items-center w-full sm:h-[90%] font-extrabold sm:text-[60px]'>
                    <div className='mt-[50px] sm:mt-0'>
-
-                    <p className=' '>Salut !!!  Je suis   </p>
-                    <p className='text-sky-400'> Sekongo Moussa </p>
-                    <p>Développeur Web</p>
+                        <p className=' '>Salut !!!  Je suis   </p>
+                        <p className='text-sky-400'> Sekongo Moussa </p>
+                        <p>Développeur Web</p>
                    </div>
                     <div className='text-[16px]   sm:text-[25px] mt-[20px] '>
                         <div id='logo'  className=' mb-[20px] w-[100%] h-[60px] flex justify-center items-center gap-5' >
-                            <p className=" rounded-full w-[50px] h-[50px] bg-center sm:hover:rotate-180 bg-[length:30px_30px] bg-no-repeat bg-[url('/logo/tb.png')] dark:bg-[url('/logo/tw.png')] ">
+                            <p className=" rounded-full w-[50px] h-[50px] sm:hover:rotate-180 flex justify-center items-center ">
+                                <a href="https://github.com/sekongo05/" target="_blank"  className='dark:hidden flex w-[40px] justify-center items-center'> <img src="logo/gb.png" alt="" className='dark:hidden flex w-[30px]'/></a>
+                                <a href="https://github.com/sekongo05/" target="_blank"  className='dark:flex hidden w-[40px] justify-center items-center'> <img src="logo/gw.png" alt="" className='dark:flex hidden  w-[30px]'/></a>
                             </p>
-                            <p className=" rounded-full w-[50px] h-[50px] sm:hover:rotate-180 bg-center bg-[length:30px_30px] bg-no-repeat bg-[url('/logo/lb.png')] dark:bg-[url('/logo/lw.png')] ">
+                            <p className=" rounded-full w-[50px] h-[50px]  sm:hover:rotate-180 flex justify-center items-center ">
+                                <a href=" https://www.linkedin.com/in/sekongo-dev" target="_blank" className='dark:hidden flex w-[40px] justify-center items-center'> <img src="logo/lb.png" alt="" className='dark:hidden flex w-[30px]'/></a>
+                                <a href="https://www.linkedin.com/in/sekongo-dev" target="_blank" className='dark:flex hidden w-[40px] justify-center items-center'> <img src="logo/lw.png" alt="" className='dark:flex hidden  w-[30px]'/></a>
                             </p>
-                            <p className=" rounded-full w-[50px] h-[50px] sm:hover:rotate-180 bg-center bg-[length:30px_30px] bg-no-repeat bg-[url('/logo/gb.png')] dark:bg-[url('/logo/gw.png')] ">                         
+                            <p className=" rounded-full w-[50px] h-[50px]  sm:hover:rotate-180 flex justify-center items-center ">
+                                <a href="#" target="_blank"  className='dark:hidden flex w-[40px] justify-center items-center'> <img src="logo/tb.png" alt="" className='dark:hidden flex w-[30px]'/></a>
+                                <a href="#" target="_blank" className='dark:flex hidden w-[40px] justify-center items-center'> <img src="logo/tw.png" alt="" className='dark:flex hidden  w-[30px]'/></a>
                             </p>
                            
                         </div>
@@ -37,7 +42,7 @@ let Home = ()=>{
                 </div>
 
                 <div id='open2' className=' mt-[50px] h-[50%]  w-full flex items-center justify-center    sm:hidden'>
-                    <p className="dark:bg-[url('/images/ggi.png')] w-[80%] bg-[url('/images/de.png')]  bg-cover bg-center h-[100%] ">
+                    <p className="dark:bg-[url('/images/ggi.png')] w-[100%] bg-[url('/images/de.png')]  bg-cover bg-center h-[100%] ">
                        
                     </p>
                 </div>
