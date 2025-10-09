@@ -5,11 +5,11 @@ let Certificat = () =>{
 
     return <>
             <div id='certif' className=' h-[100px]  bg-white dark:bg-black'></div>
-            <div className='h-full bg-white dark:bg-black text-black dark:text-white'>
+            <div className='h-full bg-white overflow-hidden dark:bg-black text-black dark:text-white'>
                 <div data-aos="zoom-in-left" className='h-[100px] sm:h-[150px]  border-green-700 w-[100%] text-black dark:text-white flex justify-center items-center bg-white dark:bg-black'>
                     <p className='text-[35px] font-extrabold capitalize text-sky-400'>Mes Certificats</p>
                 </div>
-                <div data-aos="zoom-in-left" className='flex flex-col font-bold   w-full mt-[80px]  sm:mt-0  gap-20 sm:gap-40 justify-center items-center h-min sm:h-[80vh]  bg-white dark:bg-black      sm:flex-row'>
+                <div data-aos="zoom-in-left" className='flex flex-col font-bold p-2  w-full mt-[80px]  sm:mt-0  gap-20 sm:gap-40 justify-center items-center h-min sm:h-[80vh]  bg-white dark:bg-black      sm:flex-row'>
                     <div id='serv' className=' w-[80%] h-[300px] flex flex-col justify-center items-center      rounded-[16px] sm:w-[300px] sm:h-[400px] '>
                         <p className="h-[60%] w-full rounded-t-[16px] flex justify-center items-center  overflow-hidden ">
                             <img src="images/certif_react_js.jpg" alt="certificat react js" className='w-[100%] h-[100%]'/>

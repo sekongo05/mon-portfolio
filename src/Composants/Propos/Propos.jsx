@@ -9,7 +9,7 @@ let Propos = ()=>{
                 <div className='h-[100px]  w-[100%] text-black dark:text-white flex justify-center items-center sm:mb-[-100px] bg-white dark:bg-black'>
                     <p data-aos="fade-up"data-aos-anchor-placement="center-bottom" className='text-[35px] font-extrabold capitalize text-sky-400'>à Propos de moi</p>
                 </div>
-            <div  className=' h-[100vh] w-[100%]  font-mono flex flex-col  sm:flex-row bg-white dark:bg-black text-black dark:text-white'>
+            <div  className=' h-[100vh] w-[100%]  font-mono flex flex-col overflow-hidden  sm:flex-row bg-white dark:bg-black text-black dark:text-white'>
                 <div className=' w-full h-[50%] flex justify-center items-center sm:h-[100%]'> 
                     <p data-aos="fade-up"data-aos-anchor-placement="center-bottom" className='flex justify-center text-[18px] text-center items-center w-[90%] sm:pl-15 sm:text-[25px]'>
                         🧑‍💻Développeur web & designer graphique passionné par l’innovation digitale et l’esthétique interactive, je conçois des sites web modernes, des applications dynamiques et des supports visuels destinés à la communication digitale et imprimée.
@@ -17,8 +17,7 @@ let Propos = ()=>{
                     </p>
 
                 </div>
-                <div data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom"  className='w-full  h-[70%] flex justify-center items-center sm:h-[100%]'>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"  className='w-full overflow-hidden h-[70%] flex justify-center items-center sm:h-[100%]'>
                     <p  id='sh' className=' rounded-full flex justify-center items-center w-[250px] h-[250px] sm:w-[500px] bg-white dark:bg-black sm:h-[500px] overflow-hidden'>
                         <img src="images/im.jpg" alt="" className='hidden dark:flex' />
                         <img src="images/imw.jpg" alt="" className='dark:hidden flex' />

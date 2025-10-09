@@ -6,11 +6,11 @@ let Projet = ()=>{
 
     return <>
             <div id='projet' className=' h-[100px]   bg-white dark:bg-black'></div>
-            <div  className='h-full bg-white dark:bg-black text-black dark:text-white'>
+            <div  className='h-full bg-white dark:bg-black text-black dark:text-white overflow-hidden'>
                 <div data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine" className='h-[100px] sm:h-[150px]  border-green-700 w-[100%] text-black dark:text-white flex justify-center items-center bg-white dark:bg-black'>
                     <p className='text-[35px] font-extrabold capitalize text-sky-400'>Mes Projets </p>
                 </div>
-                <div   data-aos-easing="ease-in-sine" className='flex flex-col   w-full mt-[80px]  sm:mt-[-60px]  gap-20 sm:gap-40 justify-center items-center h-min sm:h-[80vh]  bg-white dark:bg-black      sm:flex-row'>
+                <div   data-aos-easing="ease-in-sine" className='flex flex-col p-2   w-full mt-[80px]  sm:mt-[-60px]  gap-20 sm:gap-40 justify-center items-center h-min sm:h-[80vh]  bg-white dark:bg-black      sm:flex-row'>
             
                     
                      <div  data-aos="fade-right"  data-aos-offset="300" id='serv' className=' w-[80%] h-[300px] flex flex-col justify-center items-center      rounded-[16px] sm:w-[300px] sm:h-[400px] '>
@@ -23,7 +23,7 @@ let Projet = ()=>{
                         </p>
                     </div>
 
-                    <div  data-aos="fade-left"  data-aos-offset="300" id='serv' className='  w-[80%] h-[300px] flex flex-col justify-center items-center rounded-[16px] sm:w-[300px] sm:h-[400px] ease-in-out'>
+                    <div  data-aos="fade-left"  data-aos-offset="300" id='serv' className=' overflow-hidden w-[80%] h-[300px] flex flex-col justify-center items-center rounded-[16px] sm:w-[300px] sm:h-[400px] ease-in-out'>
                         <p className="h-[50%] w-full  flex  rounded-t-[16px] justify-center overflow-hidden  items-center ">
                             <img src="images/c.jpeg" alt="certificat hacking étique" className='w-[100%] h-[100%]' />
                         </p>
