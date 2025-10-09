@@ -133,7 +133,7 @@ let Competence = ()=>{
                         </div>
                         <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" className=' mb-[20px] p-7 w-[100%] h-min flex justify-center gap-8 items-center '>
                             <p className='w-[45%] h-[150px]   flex flex-col logo '>
-                                <p className=" h-[100px] bg-[url('/logo/g.png')] dark:bg-[url('/logo/ew.png')] bg-center bg-no-repeat bg-[length:100px_100px]"></p>
+                                <p className=" h-[100px] bg-[url('/logo/g.png')]  bg-center bg-no-repeat bg-[length:100px_100px]"></p>
                                 <p className=' h-[50px] flex justify-center font-mono items-center text-[18px] sm:text-[20px]'>Git</p> 
                             </p>
                             <p className='w-[45%] h-[150px]   flex flex-col logo '>
