@@ -16,7 +16,7 @@ let Certificat = () =>{
                         </p>
                         <p  className='h-[20%] w-full text-[18px]   flex justify-center items-center sm:text-[25px]' >Certificat React JS</p>
                         <p className="h-[20%] w-[50%]   flex justify-center items-center" >
-                            <a href="/images/certif_react_js.jpg" download target="_blank" rel="noopener noreferrer"><img src="logo/link.png" alt="lien" className='w-[50px]' /> </a>
+                            <a href="/images/certif_react_js.jpg"  target="_blank" rel="noopener noreferrer"><img src="logo/link.png" alt="lien" className='w-[50px]' /> </a>
                         </p>
                     </div>
                     
@@ -26,7 +26,7 @@ let Certificat = () =>{
                         </p>
                         <p  className='h-[20%] w-full   text-[17px] flex justify-center items-center sm:text-[25px]' >Certificat Hacking Étique</p>
                         <p className="h-[20%] w-[50%]   flex justify-center items-center" >
-                            <a href="/images/certif_hacking.jpg" download target="_blank" rel="noopener noreferrer"><img src="logo/link.png" alt="lien" className='w-[50px]' /> </a>
+                            <a href="/images/certif_hacking.jpg"  target="_blank" rel="noopener noreferrer"><img src="logo/link.png" alt="lien" className='w-[50px]' /> </a>
                         </p>  
                     
                     </div>

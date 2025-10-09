@@ -15,7 +15,7 @@ let Projet = ()=>{
                     
                      <div  data-aos="fade-right"  data-aos-offset="300" id='serv' className=' w-[80%] h-[300px] flex flex-col justify-center items-center      rounded-[16px] sm:w-[300px] sm:h-[400px] '>
                         <p className="h-[50%] w-full rounded-t-[16px] flex justify-center items-center  overflow-hidden ">
-                            <img src="images/p2.jpeg" alt="" className='w-[100%] h-[100%]'/>
+                            <img src="images/c1.png" alt="" className='w-[100%] h-[100%]'/>
                         </p>
                         <p  className='h-[30%] w-[95%]    flex justify-center items-center text-[18px] text-center sm:text-[25px]' >Site Web moderne pour la recherche de résidences meublées</p>
                         <p className="h-[20%] w-[50%]   flex justify-center items-center" >
@@ -25,7 +25,7 @@ let Projet = ()=>{
 
                     <div  data-aos="fade-left"  data-aos-offset="300" id='serv' className=' overflow-hidden w-[80%] h-[300px] flex flex-col justify-center items-center rounded-[16px] sm:w-[300px] sm:h-[400px] ease-in-out'>
                         <p className="h-[50%] w-full  flex  rounded-t-[16px] justify-center overflow-hidden  items-center ">
-                            <img src="images/c.jpeg" alt="certificat hacking étique" className='w-[100%] h-[100%]' />
+                            <img src="images/x.png" alt="certificat hacking étique" className='w-[100%] h-[100%]' />
                         </p>
                         <p  className='h-[30%] w-[95%]    flex justify-center items-center text-[18px] sm:text-[25px]' >Site de vente de café</p>
                         <p className="h-[20%] w-[50%]   flex justify-center items-center" >
