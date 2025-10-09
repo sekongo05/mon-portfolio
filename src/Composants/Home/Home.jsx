@@ -27,8 +27,8 @@ let Home = ()=>{
                                 <a href="https://www.linkedin.com/in/sekongo-dev" target="_blank" className='dark:flex hidden w-[40px] justify-center items-center'> <img src="logo/lw.png" alt="" className='dark:flex hidden  w-[30px]'/></a>
                             </p>
                             <p className=" rounded-full w-[50px] h-[50px]  sm:hover:rotate-180 flex justify-center items-center ">
-                                <a href="#" target="_blank"  className='dark:hidden flex w-[40px] justify-center items-center'> <img src="logo/tb.png" alt="" className='dark:hidden flex w-[30px]'/></a>
-                                <a href="#" target="_blank" className='dark:flex hidden w-[40px] justify-center items-center'> <img src="logo/tw.png" alt="" className='dark:flex hidden  w-[30px]'/></a>
+                                <a href="https://www.tiktok.com/@dotanamoussasekongo?_t=ZM-90OILkUBOie&_r=1" target="_blank"  className='dark:hidden flex w-[40px] justify-center items-center'> <img src="logo/tb.png" alt="" className='dark:hidden flex w-[30px]'/></a>
+                                <a href="https://www.tiktok.com/@dotanamoussasekongo?_t=ZM-90OILkUBOie&_r=1" target="_blank" className='dark:flex hidden w-[40px] justify-center items-center'> <img src="logo/tw.png" alt="" className='dark:flex hidden  w-[30px]'/></a>
                             </p>
                            
                         </div>

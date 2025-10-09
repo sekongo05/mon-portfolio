@@ -8,16 +8,21 @@ import Certificat from './Composants/Certificat/Certificat';
 import Propos from './Composants/Propos/Propos';
 import Service from './Composants/Services/Service';
 import Footer from './Composants/Footer/Footer';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 let App = ()=>{
-
+    useEffect(() => {
+    AOS.init({ duration: 800, once: false });
+  }, [])
 
   return <>
           
           <Header />
           <Home />
-          <Propos />
+          <Propos  />
           <Competence />
           <Certificat />
           <Service />
